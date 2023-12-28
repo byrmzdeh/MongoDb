@@ -3,7 +3,6 @@ import mongoose, { Schema } from 'mongoose';
 import 'dotenv/config'
 
 const app = express()
-const port = 8000
 
 
 app.use(express.json())
